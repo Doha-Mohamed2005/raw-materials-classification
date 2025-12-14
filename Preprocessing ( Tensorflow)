@@ -65,3 +65,45 @@ for root, dirs, files in os.walk(dataset_path):
         print(f'{subindent}{file}')
     if len(files) > 3:
         print(f'{subindent}... and {len(files) - 3} more files')
+
+
+
+
+
+
+
+
+
+**Count Images Per Class**
+
+# Get all class directories and count images
+class_counts = {}
+class_dirs = []
+
+for item in os.listdir("/content/dataset_raw/Material_dataset"):
+    item_path = os.path.join("/content/dataset_raw/Material_dataset", item)
+    if os.path.isdir(item_path):
+        # Count image files
+        image_files = [f for f in os.listdir(item_path)
+                      if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
+        class_counts[item] = len(image_files)
+        class_dirs.append(item)
+
+# Display class distribution
+print("Class Distribution:")
+print("-" * 40)
+for class_name, count in sorted(class_counts.items()):
+    print(f"{class_name:20s}: {count:4d} images")
+print("-" * 40)
+print(f"Total Classes: {len(class_counts)}")
+print(f"Total Images: {sum(class_counts.values())}")
+
+# Visualize distribution
+plt.figure(figsize=(12, 6))
+plt.bar(class_counts.keys(), class_counts.values(), color='steelblue')
+plt.xlabel('Material Class', fontsize=12)
+plt.ylabel('Number of Images', fontsize=12)
+plt.title('Dataset Class Distribution', fontsize=14, fontweight='bold')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
