@@ -1,11 +1,4 @@
 # 🏭 Raw Materials Classification
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14-orange)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.30-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
---
 
 ## 📖 Project Overview
 This project implements a deep learning model for classifying raw materials (**wood, plastic, metal, glass**) based on image texture using **Convolutional Neural Networks (CNNs)** and **Transfer Learning**.  
@@ -172,5 +165,4 @@ Functional GUI application (web-based via Streamlit)
 Final report detailing dataset selection, model comparison, results, and challenges
 
 Bonus demonstration of lighting robustness
-Omar Ragab         Omarragab66            "Data Collection & Preprocessing"
 
