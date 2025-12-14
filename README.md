@@ -140,6 +140,4 @@ Functional Streamlit GUI
 Final report with dataset, model comparison, results, and challenges
 Bonus demonstration: lighting robustness
 ---
-
-streamlit run gui/GuiApp.py
  
