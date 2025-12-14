@@ -9,7 +9,7 @@
 ## 📂 Dataset (GitHub Requirements)
 **Main Dataset:** Kaggle – Raw Material Images for Classification  
 **Additional Custom Images:** Collected by team under extreme lighting, deep shadows, and strong glare (for bonus robustness)
-
+---
 ## 🧠 Models Implemented (3 Architectures)
 | Model           | Source        | Role                        |
 |-----------------|---------------|----------------------------|
@@ -22,7 +22,7 @@
 - Grad-CAM visualization in Streamlit GUI
 - Top-3 predictions with confidence scores
 - Robust performance under factory-like lighting conditions
-
+---
 ## ⚙️ Setup Instructions
 ```bash
 pip install -r requirements.txt
