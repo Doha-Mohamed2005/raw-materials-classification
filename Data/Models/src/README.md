@@ -78,15 +78,9 @@ Image size
 Class mapping
 Batch size
 Augmentation settings
-
-settings
-
+---
 📊 Results (To be updated after final training)
-
 ResNet18: xx%
-
 EfficientNet-B1: xx% ← Best
-
 MobileNetV3: xx%
-
 Confusion matrix & accuracy graphs → docs/ folder
