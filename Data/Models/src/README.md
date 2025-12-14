@@ -58,45 +58,25 @@ Omar Ragab         Omarragab66            "Data Collection & Preprocessing"
 
 🛠 Dataset Preprocessing
 1️⃣ Data Upload & Exploration
-
 Kaggle dataset downloaded and extracted.
-
 Class distribution analyzed and visualized.
-
 Sample images reviewed for quality and balance.
-
 2️⃣ Image Preprocessing
-
 Resize to 224x224.
-
 Normalize pixel values to [0,1].
-
 Label extraction from filenames.
-
 3️⃣ Data Augmentation
-
 Geometric: random flips, rotations, crops.
-
 Color: hue and saturation adjustments.
-
 🎯 Lighting Robustness (BONUS): brightness/contrast, shadows, glare for factory simulation.
-
 4️⃣ Dataset Split
-
 Train: 70%, Validation: 15%, Test: 15%.
-
 Stratified splitting to preserve class balance.
-
 5️⃣ Saved Configuration
-
 preprocessing_config.json includes:
-
 Image size
-
 Class mapping
-
 Batch size
-
 Augmentation settings
 
 settings
