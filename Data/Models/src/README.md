@@ -20,8 +20,9 @@ Achieved through **heavy augmentations** using Albumentations:
 
 ## 📂 Dataset
 
-- **Main Dataset:** Kaggle – Material Dataset New (~20,000 images, focused on JPEGImages for classification)  
-- **Additional Custom Images:** Collected under extreme lighting, deep shadows, and strong glare (~20,000 images with augmentations)  
+- **Main Dataset:** Kaggle – Material Dataset New (~15,000 images, focused on JPEGImages for classification)
+-  **Link Dataset:** https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification
+- **Additional Custom Images:** Collected under extreme lighting, deep shadows, and strong glare (~15,000 images with augmentations)  
 - **Total Images:** ~40,000  
 - **Class Distribution:** Balanced across materials (visualized in `preprocessing/data_exploration.ipynb`)
 
