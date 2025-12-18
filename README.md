@@ -23,8 +23,9 @@ This project implements a deep learning model for classifying raw materials (**w
 
 ## 📂 Dataset
 
-- **Main Dataset:** Kaggle – Material Dataset New (~20,000 images, focused on JPEGImages for classification)  
-- **Custom Images:** ~20,000 additional images collected under extreme lighting and glare  
+- **Main Dataset:** Kaggle – Material Dataset New (~15,000 images, focused on JPEGImages for classification)
+- **Link Dataset:** https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification
+- **Custom Images:** ~15,000 additional images collected under extreme lighting and glare  
 - **Total Images:** ~40,000  
 - **Class Distribution:** Balanced across materials (see `preprocessing/data_exploration.ipynb`)
 
