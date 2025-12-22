@@ -35,8 +35,8 @@ This project implements a deep learning model for classifying raw materials (**w
 | Model           | Source        | Role                        |
 |-----------------|---------------|----------------------------|
 | **ResNet18**        | torchvision   | Baseline                   |
-| **EfficientNet-B1** | timm          | Best accuracy              |
-| **MobileNetV3**     | torchvision   | Lightweight & fast         |
+| **Inceotion** | timm          | Best accuracy              |
+| **Efficient_Net**     | torchvision   | Lightweight & fast         |
 
 **Training Details:** Pre-trained on ImageNet, fine-tuned with custom augmentations  
 **Explainability:** Grad-CAM for model attention visualization  
@@ -45,11 +45,11 @@ This project implements a deep learning model for classifying raw materials (**w
 ---
 
 ## 📊 Results
-*(To be updated after final training)*  
 
-- **ResNet18:** xx% accuracy  
-- **EfficientNet-B1:** xx% accuracy (Best performing)  
-- **MobileNetV3:** xx% accuracy  
+
+- **ResNet18:** 88% accuracy  
+- **Inceotion:** 96% accuracy (Best performing)  
+-
 
 Confusion matrices, accuracy graphs, and lighting robustness evaluation are available in `docs/`.
 
