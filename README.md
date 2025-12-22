@@ -35,7 +35,7 @@ This project implements a deep learning model for classifying raw materials (**w
 | Model           | Source        | Role                        |
 |-----------------|---------------|----------------------------|
 | **ResNet18**        | torchvision   | Baseline                   |
-| **Inceotion** | timm          | Best accuracy              |
+| **Inception** | timm          | Best accuracy              |
 | **Efficient_Net**     | torchvision   | Lightweight & fast         |
 
 **Training Details:** Pre-trained on ImageNet, fine-tuned with custom augmentations  
